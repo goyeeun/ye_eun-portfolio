@@ -171,7 +171,7 @@ section.about .inner .leftBox {float: left;position: relative;margin-top: 200px;
 section.about .inner .leftBox .imgBox {z-index: -2;}
 section.about .inner .leftBox .imgBox .img {width: 90%;}
 section.about .inner .leftBox .imgBox .img img {width: 100%;}
-section.about .inner .leftBox .txtBox {font-size: 15px;font-weight: normal; padding-top: 10px;padding-left: 55px;}
+section.about .inner .leftBox .txtBox {font-size: 15px;font-weight: normal; padding-top: 50px;padding-left: 55px;}
 /*rightBox*/
 section.about .inner .rightBox {float: right;margin-top: 60px;position: relative;}
 section.about .inner .rightBox .Tit {font-size: 20px;font-weight: 600;margin-bottom: 20px;color: #292929;font-weight: normal;font-family: 'Nanum Gothic', sans-serif;}
