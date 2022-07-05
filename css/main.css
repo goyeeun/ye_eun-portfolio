@@ -127,7 +127,7 @@ section.about .lineBox {position: absolute; left: 240px; top: 49%;z-index:1; wid
 /*bar-svgAni*/
 .bar1 {display: block; transform: rotate(0deg);}
 .bar1 .svgAni line {fill:none;stroke:#B8D9E2;stroke-width:29;stroke-miterlimit:10; stroke-dasharray:870; stroke-dashoffset:0;}
-section.about .bar1 {position: absolute; right: 31%; bottom:30.5%; z-index: -1; width:170px;}
+section.about .bar1 {position: absolute; right: 33.2%; bottom:29.5%; z-index: -1; width:170px;}
 .bar1.motion .svgAni line {animation-name: line1; animation-duration: 9s;}
 @keyframes line1 {
     0%{stroke-dashoffset:870;}
@@ -135,7 +135,7 @@ section.about .bar1 {position: absolute; right: 31%; bottom:30.5%; z-index: -1; 
 }
 .bar2 {display: block; transform: rotate(0deg);}
 .bar2 .svgAni line {fill:none;stroke:#7A9096;stroke-width:29;stroke-miterlimit:10; stroke-dasharray:870; stroke-dashoffset:0;}
-section.about .bar2 {position: absolute; right: 31%; bottom:22.5%; z-index: -1; width:170px;}
+section.about .bar2 {position: absolute; right: 33.2%; bottom:22%; z-index: -1; width:170px;}
 .bar2.motion .svgAni line {animation-name: line2; animation-duration: 9s;}
 @keyframes line2 {
     0%{stroke-dashoffset:870;}
@@ -143,7 +143,7 @@ section.about .bar2 {position: absolute; right: 31%; bottom:22.5%; z-index: -1; 
 }
 .bar3 {display: block; transform: rotate(0deg);}
 .bar3 .svgAni line {fill:none;stroke:#E3D0B8;stroke-width:29;stroke-miterlimit:10; stroke-dasharray:870; stroke-dashoffset:0;}
-section.about .bar3 {position: absolute; right: 32%; bottom:15%; z-index: -1; width:150px;}
+section.about .bar3 {position: absolute; right: 34.2%; bottom:14.5%; z-index: -1; width:150px;}
 .bar3.motion .svgAni line {animation-name: line3; animation-duration: 9s;}
 @keyframes line3 {
     0%{stroke-dashoffset:870;}
@@ -151,7 +151,7 @@ section.about .bar3 {position: absolute; right: 32%; bottom:15%; z-index: -1; wi
 }
 .bar4 {display: block; transform: rotate(0deg);}
 .bar4 .svgAni line {fill:none;stroke:#96857A;stroke-width:29;stroke-miterlimit:10; stroke-dasharray:870; stroke-dashoffset:0;}
-section.about .bar4 {position: absolute; right: 33%; bottom:7.5%; z-index: -1; width:130px;}
+section.about .bar4 {position: absolute; right: 35.2%; bottom:7%; z-index: -1; width:130px;}
 .bar4.motion .svgAni line {animation-name: line4; animation-duration: 9s;}
 @keyframes line4 {
     0%{stroke-dashoffset:870;}
@@ -159,7 +159,7 @@ section.about .bar4 {position: absolute; right: 33%; bottom:7.5%; z-index: -1; w
 }
 .bar5 {display: block; transform: rotate(0deg);}
 .bar5 .svgAni line {fill:none;stroke:#e3e3e3;stroke-width:45;stroke-miterlimit:10; stroke-dasharray:870; stroke-dashoffset:0;}
-section.about .bar5 {position: absolute; right: 35%; bottom:-10px; z-index: -1; width:90px;}
+section.about .bar5 {position: absolute; right: 37.3%; bottom:-5px; z-index: -1; width:90px;}
 .bar5.motion .svgAni line {animation-name: line5; animation-duration: 9s;}
 @keyframes line5 {
     0%{stroke-dashoffset:870;}
@@ -171,20 +171,23 @@ section.about .inner .leftBox {float: left;position: relative;margin-top: 200px;
 section.about .inner .leftBox .imgBox {z-index: -2;}
 section.about .inner .leftBox .imgBox .img {width: 90%;}
 section.about .inner .leftBox .imgBox .img img {width: 100%;}
-section.about .inner .leftBox .txtBox {font-size: 15px;font-weight: normal; padding-top: 50px;padding-left: 55px;}
+section.about .inner .leftBox .txtBox {font-size: 15px;font-weight: normal; padding-top: 75px;padding-left: 55px;}
 /*rightBox*/
 section.about .inner .rightBox {float: right;margin-top: 60px;position: relative;}
 section.about .inner .rightBox .Tit {font-size: 20px;font-weight: 600;margin-bottom: 20px;color: #292929;font-weight: normal;font-family: 'Nanum Gothic', sans-serif;}
 section.about .inner .rightBox .Tit:before{content: '';width: 1px;height: 170px;position: absolute;left: -100px;top:-75px; background: #e9e0d8;transform: rotate(90deg);}
 section.about .inner .rightBox .txt {font-size: 14px;line-height: 1.5;color: #292929;}
+section.about .inner .rightBox .Tit_2 {font-size: 20px;font-weight: 600;margin-bottom: 20px;color: #292929;font-weight: normal;font-family: 'Nanum Gothic', sans-serif;padding-top: 20px;}
+section.about .inner .rightBox .Tit_2:before{content: '';width: 1px;height: 170px;position: absolute;left: -100px;top:7%; background: #e9e0d8;transform: rotate(90deg);}
+section.about .inner .rightBox .txt_2 {font-size: 14px;line-height: 1.5;color: #292929;}
 section.about .inner .rightBox .skill {margin-top: 80px;position: relative;width: 50%;}
 section.about .inner .rightBox .skill:before {content: '';border-radius: 50%;width: 70px;height: 70px;background: #90b800;position:absolute;left: -45px;top: -15px;z-index: -9999;}
-section.about .inner .rightBox .skill .tit {font-size: 50px;margin-bottom: 30px;font-weight: normal;}
+section.about .inner .rightBox .skill .tit {font-size: 50px;margin-bottom: 0px;font-weight: normal;}
 section.about .inner .rightBox .skill ul {overflow: hidden;display: flex;flex-direction: column;}
 section.about .inner .rightBox .skill ul li {margin-top: 50px;font-size: 17px;}
 section.about .inner .rightBox .skill ul li .data {float: right;}
-section.about .inner .rightBox .skill ul li .data span {font-family: 'Nanum Gothic', sans-serif;font-size: 20px;}
-section.about .inner .rightBox .skill ul li .data span b {font-family: 'Nanum Gothic', sans-serif;font-size: 20px; padding-left: 10px;}
+section.about .inner .rightBox .skill ul li .data .count {font-family: 'Nanum Gothic', sans-serif;font-size: 20px;}
+section.about .inner .rightBox .skill ul li .data .count b {font-family: 'Nanum Gothic', sans-serif;font-size: 20px; padding-left: 10px;}
 
 /*section.secvisual*/
 .scvisual {position: relative; height: 1200px;overflow: hidden;padding-top: 300px}
@@ -234,7 +237,7 @@ section.Gallery .inner .slide li a span:after{content: '';width: 50px;height: 1p
 section.contact {width: 100%;margin-top: 250px;background: #d4d4d4;position: relative; overflow: hidden;}
 section.contact .inner {width: 1400px; height: 400px;margin: auto;}
 section.contact .inner .mainTit {width: 100%; position: absolute;top:5%;left: 15%;}
-section.contact .inner .txt {text-align: center;font-size: 25px;line-height: 2;color: #fff;position: absolute; top: 30%;right: 45%}
+section.contact .inner .txt {text-align: center;font-size: 25px;line-height: 2;color: #fff;position: absolute; top: 30%;right: 42%}
 
 /*section.goTop*/
 .goTop {position: fixed;right: 60px;bottom: 15%;z-index: 1;}
